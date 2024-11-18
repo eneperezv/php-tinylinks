@@ -23,3 +23,17 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+
+
+
+# DIRECTORIO VENDOR Y CONFIGURACIONES
+tinylinks.api/vendor/
+tinylinks.cli/vendor/
+
+# Archivos de configuración locales (opcional, si usas .env)
+*.env
+
+# Archivos del sistema (Mac, Windows)
+.DS_Store
+Thumbs.db
